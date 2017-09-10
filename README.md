@@ -19,5 +19,5 @@ This is same as baseline model, however a batch normalization layer added after 
 ## Results
 The highest accuracy achieved is 97.74% using VGG16. Highest accuracy achieved using baseline is 97.34%
 
-Full project report can be found here.
+Full project report can be found [here](Traffic-Sign-Recognition-using-Deep-Neural-Network/Report and Answers.pdf).
 
