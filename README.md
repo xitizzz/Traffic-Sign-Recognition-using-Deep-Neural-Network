@@ -14,7 +14,7 @@ The files with prefix train, trains a specific model. There are separate files f
 The files with prefix test performs the testing. [test_baseline.py](/test_baseline.py) takes trained model as argument and performs the testing on predefined test data. [test_loadmodel.py](/test_loadmodel.py) can load model from file before testing.
 
 ## Data
-The data comes from [German Traffic Sign Recognition Benchmark dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). The data contains over 50,000 images (>38,000 training, >12,000 testing) images of 43 different types of traffic signs. The data is not included ([readme](/GTSRB/Readme-images.txt) is included), but it can be downloaded from [here](http://benchmark.ini.rub.de/Dataset/GTSRB_Online-Test-Images.zip).
+The data comes from [German Traffic Sign Recognition Benchmark dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). The data contains over 50,000 images (>38,000 training, >12,000 testing) images of 43 different types of traffic signs. The data sits in directory [GTSRB](/GTSRB), however the actual data is not included. The dataset can be downloaded from [here](http://benchmark.ini.rub.de/Dataset/GTSRB_Online-Test-Images.zip).
 
 ## Models
 For this project I use three different models.
