@@ -62,9 +62,6 @@ def main():
     print "\nSystem Details"
     print "Backend = "+K.backend()
     print "Data format = "+K.image_data_format()
-    # TODO: make this dynamic if possible (low priority)
-    print "Target = GPU"
-    print "Device = GTX 1070"
 
     print "\nTraining Details"
     print "Network = "+NETWORK_TYPE[network]
@@ -87,9 +84,6 @@ def main():
     w_file.write("System Details")
     w_file.write("\nBackend = "+K.backend())
     w_file.write("\nData format = "+K.image_data_format())
-    # TODO: make this dynamic if possible (low priority))
-    w_file.write("\nTarget = GPU")
-    w_file.write("\nDevice = GTX 1070")
 
     w_file.write("\n\nTraining Details")
     w_file.write("\nNetwork = "+NETWORK_TYPE[network])
