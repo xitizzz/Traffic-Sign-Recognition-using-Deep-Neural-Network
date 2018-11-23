@@ -34,4 +34,4 @@ This is same as baseline model, however a batch normalization layer is added aft
 ## Results
 The highest accuracy achieved is 97.74% using VGG16.
 
-Full project report can be found as Report.pdf in the repo.
+Check full project report [here](./Project Report.pdf)
